@@ -64,7 +64,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🧪 Confusion Matrix  
 <p align="center">
-  <img src="Model/results/confusion_matrix.png" width="600"/>
+  <img src="Model/results/confusion_matrix.png" width="500"/>
 </p>  
 
 - Shows strong face/background separation  
@@ -74,7 +74,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🎨 Sample Training Batches  
 <p align="center">
-  <img src="Model/results/train_batch.jpg" width="500"/>
+  <img src="Model/results/train_batch.jpg" width="400"/>
 </p>  
 
 Example of how the model "saw" faces during training.  
@@ -83,7 +83,7 @@ Example of how the model "saw" faces during training.
 
 ### 🎯 Validation Results  
 <p align="center">
-  <img src="Model/results/val_batch_labels.jpg" width="350"/>
+  <img src="Model/results/val_batch_labels.jpg" width="450"/>
 </p>  
 
 Detection results on validation samples — robust performance in dense/crowded scenes.  
