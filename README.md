@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.png" height="400",width="900"/>
+  <img src="media/banner.png" height="400",width="1200"/>
 </p>
 
 # 🐺 CerberusFace-YOLOv8: High-Accuracy Face Detection  
@@ -64,7 +64,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🧪 Confusion Matrix  
 <p align="center">
-  <img src="model/results/confusion_matrix.png" width="400"/>
+  <img src="Model/results/confusion_matrix.png" width="400"/>
 </p>  
 
 - Shows strong face/background separation  
@@ -74,7 +74,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🎨 Sample Training Batches  
 <p align="center">
-  <img src="model/results/train_batch.jpg" width="300"/>
+  <img src="Model/results/train_batch.jpg" width="300"/>
 </p>  
 
 Example of how the model "saw" faces during training.  
@@ -83,7 +83,7 @@ Example of how the model "saw" faces during training.
 
 ### 🎯 Validation Results  
 <p align="center">
-  <img src="model/results/val_batch_labels.jpg" width="350"/>
+  <img src="Model/results/val_batch_labels.jpg" width="350"/>
 </p>  
 
 Detection results on validation samples — robust performance in dense/crowded scenes.  
@@ -106,7 +106,7 @@ python Scripts/Inference.py --source 0 --mode auto --save
 ---
 
 ## 📂 Repository Structure  
-'''
+```
 datasets/
 └── data.yaml
 Model/
@@ -124,14 +124,14 @@ media/
 Requirements.txt
 README.md
 LICENSE
-'''
+```
 ---
 
 ## 👥 Credits & Contributions  
 
 - **Base Model:** Ultralytics YOLOv8 (GPL-3.0 License)  
 - **Dataset:** WIDER FACE  
-- **Project Author:** Ajay Bharathi  
+- **Project Author:** [Ajay Bharathi](https://www.linkedin.com/in/ajay-bharathi/)    
 - **Organization:** Cryptarchs  
 - **Contributors:** Open for community contributions!  
 
