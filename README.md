@@ -64,7 +64,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🧪 Confusion Matrix  
 <p align="center">
-  <img src="Model/results/confusion_matrix.png" width="400"/>
+  <img src="Model/results/confusion_matrix.png" width="600"/>
 </p>  
 
 - Shows strong face/background separation  
@@ -74,7 +74,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🎨 Sample Training Batches  
 <p align="center">
-  <img src="Model/results/train_batch.jpg" width="300"/>
+  <img src="Model/results/train_batch.jpg" width="500"/>
 </p>  
 
 Example of how the model "saw" faces during training.  
