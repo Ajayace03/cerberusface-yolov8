@@ -106,7 +106,7 @@ python Scripts/Inference.py --source 0 --mode auto --save
 ---
 
 ## 📂 Repository Structure  
-
+'''
 datasets/
 └── data.yaml
 Model/
@@ -124,6 +124,7 @@ media/
 Requirements.txt
 README.md
 LICENSE
+'''
 ---
 
 ## 👥 Credits & Contributions  
