@@ -94,17 +94,20 @@ Detection results on validation samples — robust performance in dense/crowded 
 
 Run face detection with:  
 
-```bash
+
 python Scripts/Inference.py --source 0 --mode auto --save
 
-Arguments:
+**Arguments:**  
 
---source → Webcam index or video path
+- `--source` → Webcam index or video path  
+- `--mode` → `auto` (all faces) or `click` (select face with mouse)  
+- `--save` → Save cropped faces into `face_data/`  
 
---mode → auto (all faces) or click (select face with mouse)
+---
 
---save → Save cropped faces into face_data/
-```
+## 📂 Repository Structure  
+
+
 
 📂 Repository Structure
 datasets/
@@ -125,51 +128,47 @@ Requirements.txt
 README.md
 LICENSE
 
-👥 Credits & Contributions
+---
 
-Base Model: Ultralytics YOLOv8
- (GPL-3.0 License)
+## 👥 Credits & Contributions  
 
-Dataset: WIDER FACE
+- **Base Model:** Ultralytics YOLOv8 (GPL-3.0 License)  
+- **Dataset:** WIDER FACE  
+- **Project Author:** Ajay Bharathi  
+- **Organization:** Cryptarchs  
+- **Contributors:** Open for community contributions!  
 
-Project Author: Ajay Bharathi 
+📩 Contact: Open issues or PRs for suggestions and improvements.  
 
-Project Organization: Cryptarchs
+---
 
-Contributors: Open for community contributions!
+## 📜 License  
 
-📩 Contact: Open issues or PRs for suggestions and improvements.
+This project is released under the **GPL-3.0 License**.  
+You are free to use, modify, and redistribute it, provided that derivative works also remain open-source under GPL-3.0.  
 
+For full license terms, see the [LICENSE](LICENSE) file.  
 
-📜 License
+---
 
-This project is released under the GPL-3.0 License.
-You are free to use, modify, and redistribute it, provided that derivative works also remain open-source under GPL-3.0.
+## 🌟 Future Work  
 
-For full license terms, see the LICENSE
- file.
+🔹 Improve recall with larger models (YOLOv8m/s)  
+🔹 Add multi-class face attributes (e.g., mask/no-mask, emotion detection)  
+🔹 Optimize for mobile & edge deployment  
+🔹 Integrate with live CCTV pipelines  
 
-🌟 Future Work
+---
 
-🔹 Improve recall with larger models (YOLOv8m/s)
+## 💡 How to Contribute  
 
-🔹 Add multi-class face attributes (e.g., mask/no-mask, emotion detection)
+1. Fork the repository  
+2. Create your feature branch (`git checkout -b feature/your-feature`)  
+3. Commit your changes (`git commit -m 'Add some feature'`)  
+4. Push to the branch (`git push origin feature/your-feature`)  
+5. Open a Pull Request  
 
-🔹 Optimize for mobile & edge deployment
+---
 
-🔹 Integrate with live CCTV pipelines
-
-💡 How to Contribute
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature/your-feature)
-
-Commit your changes (git commit -m 'Add some feature')
-
-Push to the branch (git push origin feature/your-feature)
-
-Open a Pull Request
-
-🔥 With CerberusFace-YOLOv8, you get a fast and accurate face detection model, fine-tuned for the real world.
+🔥 With **CerberusFace-YOLOv8**, you get a **fast and accurate face detection model**, fine-tuned for the **real world**.  
 
