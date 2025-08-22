@@ -52,7 +52,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🔻 Loss & Metric Curves  
 <p align="center">
-  <img src="model/results/results.png" width="850"/>
+  <img src="Model/results/results.png" width="850"/>
 </p>  
 
 📌 Highlights:  
