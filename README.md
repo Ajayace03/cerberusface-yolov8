@@ -101,17 +101,19 @@ python Scripts/Inference.py --source 0 --mode auto --save
 datasets/
   └── data.yaml
 Model/
-  ├── cerberusface_yolov8n.pt             # Trained weights
-  ├── confusion_matrix.png
-  ├── results.png
-  ├── train_batch.jpg
-  └── val_batch_labels.jpg
+  ├── results 
+     └──  cerberusface_yolov8n.pt
+  ├── weights
+    └──  confusion_matrix.png
+    ├── results.png
+    ├── train_batch.jpg
+    └── val_batch_labels.jpg
 Scripts/
   ├── Inference.py
-  └── model_yolov8n.py
+  └── train.py
 media/
-  ├── before.gif             # 4s raw input
-  └── after.gif              # 4s detection output
+  ├── before.gif             
+  └── after.gif              
 Requirements.txt
 README.md
 LICENSE
