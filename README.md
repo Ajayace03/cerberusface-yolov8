@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="media/banner.png" width="900"/>
+  <img src="media/banner.png" height="400",width="900"/>
 </p>
+
 # 🐺 CerberusFace-YOLOv8: High-Accuracy Face Detection  
 
 **CerberusFace-YOLOv8** is a fine-tuned face detection model based on **YOLOv8 Nano**, optimized for detecting **small, distant, or low-resolution faces** in challenging real-world conditions (CCTV, surveillance, crowd monitoring, etc.).  
@@ -51,7 +52,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🔻 Loss & Metric Curves  
 <p align="center">
-  <img src="runs/train/results.png" width="850"/>
+  <img src="model/results/results.png" width="850"/>
 </p>  
 
 📌 Highlights:  
@@ -63,7 +64,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🧪 Confusion Matrix  
 <p align="center">
-  <img src="runs/train/confusion_matrix.png" width="400"/>
+  <img src="model/results/confusion_matrix.png" width="400"/>
 </p>  
 
 - Shows strong face/background separation  
@@ -73,7 +74,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 
 ### 🎨 Sample Training Batches  
 <p align="center">
-  <img src="runs/train/train_batch.jpg" width="300"/>
+  <img src="model/results/train_batch.jpg" width="300"/>
 </p>  
 
 Example of how the model "saw" faces during training.  
@@ -82,7 +83,7 @@ Example of how the model "saw" faces during training.
 
 ### 🎯 Validation Results  
 <p align="center">
-  <img src="runs/train/val_batch_labels.jpg" width="350"/>
+  <img src="model/results/val_batch_labels.jpg" width="350"/>
 </p>  
 
 Detection results on validation samples — robust performance in dense/crowded scenes.  
@@ -103,6 +104,7 @@ Arguments:
 --mode → auto (all faces) or click (select face with mouse)
 
 --save → Save cropped faces into face_data/
+```
 
 📂 Repository Structure
 datasets/
@@ -130,11 +132,14 @@ Base Model: Ultralytics YOLOv8
 
 Dataset: WIDER FACE
 
-Project Author: Ajay
-Project Organization : Cryptarchs
+Project Author: Ajay Bharathi 
+
+Project Organization: Cryptarchs
 
 Contributors: Open for community contributions!
-contact :
+
+📩 Contact: Open issues or PRs for suggestions and improvements.
+
 
 📜 License
 
