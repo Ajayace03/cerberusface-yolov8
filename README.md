@@ -39,7 +39,7 @@ Trained on the **WIDER FACE dataset**, this model balances **speed and accuracy*
 |------------------|------------------------|
 | Base Model       | YOLOv8n (Nano)         |
 | Dataset          | WIDER FACE             |
-| Epochs           | 100                    |
+| Epochs           | 200                    |
 | Image Size       | 640x640                |
 | Batch Size       | 16                     |
 | Optimizer        | AdamW                  |
@@ -101,7 +101,7 @@ python Scripts/Inference.py --source 0 --mode auto --save
 datasets/
   └── data.yaml
 Model/
-  ├── face_v1.pt             # Trained weights
+  ├── cerberusface_yolov8n.pt             # Trained weights
   ├── confusion_matrix.png
   ├── results.png
   ├── train_batch.jpg
