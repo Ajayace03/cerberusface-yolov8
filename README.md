@@ -107,27 +107,23 @@ python Scripts/Inference.py --source 0 --mode auto --save
 
 ## 📂 Repository Structure  
 
-
-
-📂 Repository Structure
 datasets/
-  └── data.yaml
+└── data.yaml
 Model/
-  ├── face_v1.pt             # Trained weights
-  ├── confusion_matrix.png
-  ├── results.png
-  ├── train_batch.jpg
-  └── val_batch_labels.jpg
+├── face_v1.pt # Trained weights
+├── confusion_matrix.png
+├── results.png
+├── train_batch.jpg
+└── val_batch_labels.jpg
 Scripts/
-  ├── Inference.py
-  └── model_yolov8n.py
+├── Inference.py
+└── model_yolov8n.py
 media/
-  ├── before.gif             # 4s raw input
-  └── after.gif              # 4s detection output
+├── before.gif # 4s raw input
+└── after.gif # 4s detection output
 Requirements.txt
 README.md
 LICENSE
-
 ---
 
 ## 👥 Credits & Contributions  
